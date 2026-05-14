@@ -6,3 +6,5 @@
 {"event":"security_alert","field":"search","input":"<iframe src=evil.com>","ip":"10.0.0.1","level":"warn","message":"SUSPICIOUS_INPUT_DETECTED","timestamp":"2026-05-14 16:58:07"}
 {"action":"IP flagged for review","attempts":5,"ip":"10.0.0.1","level":"error","message":"Multiple failed login attempts from same IP","timestamp":"2026-05-14 16:58:07"}
 {"level":"info","message":"Secure demo server started on port 3002","timestamp":"2026-05-14 17:00:13"}
+{"level":"info","message":"Secure demo server started on port 3002","timestamp":"2026-05-14 17:07:17"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","path":"/register","timestamp":"2026-05-14 17:07:34"}
