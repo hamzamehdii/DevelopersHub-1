@@ -1,0 +1,8 @@
+{"level":"info","message":"Application started","timestamp":"2026-05-14 16:58:07"}
+{"email":"admin@juice-sh.op","event":"authentication","ip":"192.168.1.100","level":"info","message":"LOGIN_ATTEMPT","success":true,"timestamp":"2026-05-14 16:58:07"}
+{"email":"hacker@evil.com","event":"authentication","ip":"10.0.0.1","level":"info","message":"LOGIN_ATTEMPT","success":false,"timestamp":"2026-05-14 16:58:07"}
+{"event":"attack_blocked","ip":"10.0.0.1","level":"error","message":"XSS_ATTEMPT_BLOCKED","payload":"<script>alert(\"XSS\")</script>","timestamp":"2026-05-14 16:58:07"}
+{"event":"attack_blocked","ip":"10.0.0.1","level":"error","message":"SQL_INJECTION_ATTEMPT_BLOCKED","payload":"' OR 1=1--","timestamp":"2026-05-14 16:58:07"}
+{"event":"security_alert","field":"search","input":"<iframe src=evil.com>","ip":"10.0.0.1","level":"warn","message":"SUSPICIOUS_INPUT_DETECTED","timestamp":"2026-05-14 16:58:07"}
+{"action":"IP flagged for review","attempts":5,"ip":"10.0.0.1","level":"error","message":"Multiple failed login attempts from same IP","timestamp":"2026-05-14 16:58:07"}
+{"level":"info","message":"Secure demo server started on port 3002","timestamp":"2026-05-14 17:00:13"}

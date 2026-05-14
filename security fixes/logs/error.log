@@ -1,0 +1,3 @@
+{"event":"attack_blocked","ip":"10.0.0.1","level":"error","message":"XSS_ATTEMPT_BLOCKED","payload":"<script>alert(\"XSS\")</script>","timestamp":"2026-05-14 16:58:07"}
+{"event":"attack_blocked","ip":"10.0.0.1","level":"error","message":"SQL_INJECTION_ATTEMPT_BLOCKED","payload":"' OR 1=1--","timestamp":"2026-05-14 16:58:07"}
+{"action":"IP flagged for review","attempts":5,"ip":"10.0.0.1","level":"error","message":"Multiple failed login attempts from same IP","timestamp":"2026-05-14 16:58:07"}
