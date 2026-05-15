@@ -73,6 +73,15 @@ app.get('/search', validateSearch, (req, res) => {
     });
 });
 
+app.get('/', (req, res) => {
+    res.json({
+        app: 'Secure Demo Application',
+        version: '1.0',
+        status: 'running',
+        endpoints: ['/register', '/login', '/profile', '/search']
+    });
+});
+
 const PORT = 3002;
 app.listen(PORT, () => {
     logger.info(`Secure demo server started on port ${PORT}`);
