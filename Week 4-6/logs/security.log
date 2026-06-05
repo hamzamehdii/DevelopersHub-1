@@ -1,0 +1,25 @@
+{"email":"test@test.com","ip":"::1","level":"warn","message":"FAILED_LOGIN","timestamp":"2026-06-03 13:37:33"}
+{"email":"test@test.com","ip":"::1","level":"warn","message":"FAILED_LOGIN","timestamp":"2026-06-03 13:37:35"}
+{"email":"test@test.com","ip":"::1","level":"warn","message":"FAILED_LOGIN","timestamp":"2026-06-03 13:37:35"}
+{"email":"test@test.com","ip":"::1","level":"warn","message":"FAILED_LOGIN","timestamp":"2026-06-03 13:37:36"}
+{"email":"test@test.com","ip":"::1","level":"warn","message":"FAILED_LOGIN","timestamp":"2026-06-03 13:37:37"}
+{"action":"Login blocked for 15 minutes","email":"test@test.com","ip":"::1","level":"error","message":"BRUTE_FORCE_DETECTED","timestamp":"2026-06-03 13:37:37"}
+{"action":"Login blocked for 15 minutes","email":"test@test.com","ip":"::1","level":"error","message":"BRUTE_FORCE_DETECTED","timestamp":"2026-06-03 13:37:41"}
+{"level":"info","message":"Week 4-6 app started on port 3003","timestamp":"2026-06-04 16:57:10"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/api/data","timestamp":"2026-06-04 16:57:54"}
+{"level":"info","message":"API_ACCESS_GRANTED","owner":"intern-app","path":"/api/data","timestamp":"2026-06-04 16:57:54"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/api/data","timestamp":"2026-06-04 16:58:10"}
+{"ip":"::1","level":"warn","message":"API_KEY_MISSING","path":"/api/data","timestamp":"2026-06-04 16:58:10"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/api/data","timestamp":"2026-06-04 16:58:57"}
+{"level":"info","message":"API_ACCESS_GRANTED","owner":"intern-app","path":"/api/data","timestamp":"2026-06-04 16:58:57"}
+{"level":"info","message":"Week 4-6 app started on port 3003","timestamp":"2026-06-04 16:59:04"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/api/data","timestamp":"2026-06-04 16:59:09"}
+{"level":"info","message":"API_ACCESS_GRANTED","owner":"intern-app","path":"/api/data","timestamp":"2026-06-04 16:59:09"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/api/data","timestamp":"2026-06-04 17:04:35"}
+{"ip":"::1","level":"warn","message":"API_KEY_MISSING","path":"/api/data","timestamp":"2026-06-04 17:04:35"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/api/data","timestamp":"2026-06-04 17:05:20"}
+{"attemptedKey":"wrongkey12...","ip":"::1","level":"error","message":"INVALID_API_KEY_ATTEMPT","timestamp":"2026-06-04 17:05:20"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/","timestamp":"2026-06-04 17:06:51"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/favicon.ico","timestamp":"2026-06-04 17:06:51"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/","timestamp":"2026-06-04 17:07:04"}
+{"ip":"::1","level":"info","message":"REQUEST","method":"GET","origin":"direct","path":"/","timestamp":"2026-06-04 17:07:24"}
